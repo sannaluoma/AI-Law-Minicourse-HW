@@ -19,12 +19,12 @@ Then code is putting the result together "full_project = pd.concat([test2_df, te
 Then code is displaying the outcome.
 Lastly saving the data by preprocessing it "full_proj_preproc.pickle"
 
-### Step 3 - Data Processing
-In []: code to install spacy.
-In []: code imports the installed packages.
-In []: code is creating a list for stop words i.e. high frequency words that are wanted to filter out. 
-In []: Defining homespun wordlist: code is setting a stoplist an defining the words. 
-In []: code is adding all stoplist words together and creating a stoplist which is used for this code. Tokenizing the text. Next step is to clean the words by applying stoplist.
+### Step 3 - Data Processin
+Code to install spacy.
+Code imports the installed packages.
+Code is creating a list for stop words i.e. high frequency words that are wanted to filter out. 
+Defining homespun wordlist: code is setting a stoplist an defining the words. 
+Code is adding all stoplist words together and creating a stoplist which is used for this code. Tokenizing the text. Next step is to clean the words by applying stoplist.
 
 ### Step 4 - Topic Modeling Method Testing
 The method "modeler" runs a modell and then prints out the topwords with the method "print_top_words" to show the results.
