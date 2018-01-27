@@ -1,23 +1,23 @@
 # AI-Law-Minicourse-HW
 ## notes
 ### Step 1 - Data Collecion & Preparation
-In [1]: Import all necessary packages from anaconda into the python kernel.
-In [2]: Creating a list of Supreme Court cases. The code creates a link to the repository which has all the Supreme Court cases.
+Import all necessary packages from anaconda into the python kernel.
+Creating a list of Supreme Court cases. The code creates a link to the repository which has all the Supreme Court cases.
 Next, it assigns a variable: they are adding to root_url the link and the year so that they have all the URLs for each year.
 Beautiful_soup_grabber is a method to make it easier to handle the data. The code is creating methods to go through data: method to run through all the documents on the website.
-In [3]: Next step is defining a method for each year within the range you've requested and convert result object into a loop that runs through all the data and it helps to collect the data. To "year_getter" you define a year you wish to search.
-In []: Panda is used to convert data to a table structure. This step is collacting data to a table form.
-In []: Next steps relates to testing the code and the result to see how it works and what it looks like. Converting the test results.
+Next step is defining a method for each year within the range you've requested and convert result object into a loop that runs through all the data and it helps to collect the data. To "year_getter" you define a year you wish to search.
+Panda is used to convert data to a table structure. This step is collacting data to a table form.
+Next steps relates to testing the code and the result to see how it works and what it looks like. Converting the test results.
 
 ### Step 2 - Data Collection & Preparation
-In []: code imports the necessary packages into the python kernel. 
-In []: pd.read_pickle("supcourt_yearlist.pickle"). Framework that is used to put data in other shape. Reads the data which was imported.
-In []: code is splitting the dataframe into three dataframes. 
-In []: collecting the data?
-In []: the code is putting data (ie. different supreme court cases) into different pickles. Collecting 
-In []: this code is putting the result together "full_project = pd.concat([test2_df, test3_df, test_df]) #putting it all together" by combining previous steps. 
-In []: this code is displaying the outcome.
-In []: lastly saving the data by preprocessing it "full_proj_preproc.pickle"
+Code imports the necessary packages into the python kernel. 
+pd.read_pickle("supcourt_yearlist.pickle"). Framework that is used to put data in other shape. Reads the data which was imported.
+Code is splitting the dataframe into three dataframes. 
+Collecting the data?
+The code is putting data (ie. different supreme court cases) into different pickles. 
+Then code is putting the result together "full_project = pd.concat([test2_df, test3_df, test_df]) #putting it all together" by combining previous steps. 
+Then code is displaying the outcome.
+Lastly saving the data by preprocessing it "full_proj_preproc.pickle"
 
 ### Step 3 - Data Processing
 In []: code to install spacy.
