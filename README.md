@@ -19,7 +19,7 @@ Then code is putting the result together "full_project = pd.concat([test2_df, te
 Then code is displaying the outcome.
 Lastly saving the data by preprocessing it "full_proj_preproc.pickle"
 
-### Step 3 - Data Processin
+### Step 3 - Data Processing
 Code to install spacy.
 Code imports the installed packages.
 Code is creating a list for stop words i.e. high frequency words that are wanted to filter out. 
